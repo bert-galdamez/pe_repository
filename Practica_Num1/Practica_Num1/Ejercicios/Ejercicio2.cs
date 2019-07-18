@@ -19,7 +19,7 @@ namespace Practica_Num1.Ejercicios
             sbyte sueldo;
 
             //Proceso: Introdccuion
-            Console.WriteLine("Recolección de dats de empleados");
+            Console.WriteLine("Recolección de datos de empleados");
             Console.WriteLine("Presione [Enter] para continuar");
             Console.ReadLine();
 
