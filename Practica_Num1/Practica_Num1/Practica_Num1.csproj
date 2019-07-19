@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Practica_Num1.Ejercicios.Ejercicio2</StartupObject>
+    <StartupObject>Practica_Num1.Ejercicios.Ejercicio5</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,6 +50,7 @@
     <Compile Include="Ejercicios\Ejercicio2.cs" />
     <Compile Include="Ejercicios\Ejercicio3.cs" />
     <Compile Include="Ejercicios\Ejercicio4.cs" />
+    <Compile Include="Ejercicios\Ejercicio5.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

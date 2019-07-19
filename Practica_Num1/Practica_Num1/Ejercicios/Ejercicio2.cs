@@ -58,11 +58,12 @@ namespace Practica_Num1.Ejercicios
             Console.WriteLine();
             Console.WriteLine("Sueldo:");
             sueldo = Convert.ToInt32(Console.ReadLine());
-
+            Console.WriteLine("\nPresione [Enter] para continuar");
+            Console.ReadKey();
+            Console.Clear();
 
 
             //Muestra de datos:
-            Console.Clear();
             Console.WriteLine("-----Datos del empleado-----");
             Console.WriteLine("Nombre: {0}",nombre);
             Console.WriteLine("Apellido: {0}", nombre);
