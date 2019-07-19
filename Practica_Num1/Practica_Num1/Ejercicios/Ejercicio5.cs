@@ -8,12 +8,8 @@ namespace Practica_Num1.Ejercicios
         static void Main(string[] args)
         {
             //Variables: 
-            int primerTrimestre;
-            int segundoTrinestre;
-            int tercerTrimestre;
-            int cuartoTrimestre;
             int seleccion;
-            bool retornar;
+            
 
 
             //Arreglo: Meses
