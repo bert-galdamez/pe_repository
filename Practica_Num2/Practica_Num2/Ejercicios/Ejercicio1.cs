@@ -16,6 +16,7 @@ namespace Practica_Num2
             nombre = nombre.Replace('A', '#').Replace('E', '%').Replace('I', '$').Replace('O', '?').Replace('U', '*');
             nombre = nombre.Replace('a', '#').Replace('e', '%').Replace('i', '$').Replace('o', '?').Replace('u', '*');
             Console.WriteLine(nombre);
+            Console.WriteLine("Presione [Enter] para continuar");
             Console.ReadKey();
 
         }
