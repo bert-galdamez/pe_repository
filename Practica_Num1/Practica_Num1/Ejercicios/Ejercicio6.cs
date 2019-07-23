@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Practica_Num1.Ejercicios
 {
@@ -44,8 +40,26 @@ namespace Practica_Num1.Ejercicios
             if(sueldo >= 526)
             {
                 //Si el sueldo es mayor o igual a 526 se saca la renta.
+                
 
-        
+                //Sacando AFP:
+                afp = Convert.ToInt32(sueldo / AFP);
+
+
+                //Sacando ISSS:
+                isss = Convert.ToInt32(sueldo / ISSS);
+
+                Console.Clear();
+                Console.WriteLine("Información:");
+                Console.WriteLine("Nombre Completo: {0} {1}", nombre, apellido);
+                Console.WriteLine("Sueldo Actual: ${0}", sueldo);
+                Console.WriteLine("Descuento de AFP:${0}", afp);
+                Console.WriteLine("Descuento de ISS:${0}", isss);
+                Console.WriteLine("Debido a su salario, No paga renta");
+                Console.WriteLine("Su sueldo restando ISSS y AFP: ${0}\n", afp + isss);
+                Console.WriteLine("Presione [Enter] para continuar");
+                Console.ReadKey();
+
             }
 
             if (sueldo <= 525)
@@ -61,11 +75,14 @@ namespace Practica_Num1.Ejercicios
                 Console.Clear();
                 Console.WriteLine("Información:");
                 Console.WriteLine("Nombre Completo: {0} {1}", nombre, apellido);
-                Console.WriteLine("Sueldo Actual: {0}", sueldo);
+                Console.WriteLine("Sueldo Actual: ${0}", sueldo);
                 Console.WriteLine("Descuento de AFP:${0}", afp);
                 Console.WriteLine("Descuento de ISS:${0}", isss);
                 Console.WriteLine("Debido a su salario, No paga renta");
+                Console.WriteLine("Su sueldo restando ISSS y AFP: ${0}\n", afp + isss);
+                Console.WriteLine("Presione [Enter] para continuar");
                 Console.ReadKey();
+                
 
             }
 
